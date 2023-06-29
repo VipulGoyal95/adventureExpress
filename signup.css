@@ -1,0 +1,127 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpaperaccess.com/full/1512992.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial';
+}
+.signup{
+    width: 454px;
+    overflow: hidden;
+    margin: 100px auto;
+    padding: 40px;
+    background: #23463f;
+    border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: #08ffd1;
+    /* padding: 1px; */
+    font-size: 50px;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+label{
+    color: #08ffd1;
+    font-size: 17px;
+}
+#name{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 305px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+#formAlign{
+    align-items: center;
+    margin-left: 37px;
+}
+#a{
+    color: #08ffd1;
+    font-size: 17px;
+}
+#dob , #mob , #ConPass{
+    width: 305px;
+    height: 30px;
+    border-radius: 5px;
+}
+#signUp{
+    width: 305px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: black;
+    font-size: medium;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 32px;;
+
+
+}
+
+
+
+
+
+.box{
+    height:50px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding:10px 20px;
+    display:flex;
+    cursor:pointer;
+    align-items: center;
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); */
+}
+
+.box:hover input{
+    width:200px;
+}
+
+.box input{
+    width:0px;
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    outline:none;
+    border:none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.box a .fas{
+    color:rgb(0, 0, 0);
+    font-size:18px;
+}
+
+.nav-title{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.nav-item{
+    font-size: 1.3rem;
+    padding: 0 15px;
+    font-weight: 600;
+}
+.navbar-nav{
+    display: flex;
+
+}

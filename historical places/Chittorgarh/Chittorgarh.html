@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/f630d9e302.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar_top">
+    <div class="container-fluid NavBar">
+      <a class="navbar-brand nav-title" href="#">AdventureExpress</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <div class="box">
+            <form class=" " role="search">
+              <input type="text" placeholder="Search...">
+              <a href="#">
+                <i class="fas fa-search"></i>
+              </a>
+            </form>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link active d-flex" aria-current="page" href="../../AdventureExpress.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex" href="../../about us/aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Your Plan
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Past Trip</a></li>
+              <li><a class="dropdown-item" href="#">Ongoing Trip</a></li>
+              <li>
+              </li>
+              <li><a class="dropdown-item" href="#">Upcoming Trip</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex" href="../../login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="../../signup.html" class="nav-link d-flex">Sign-up</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <img src="images/chittorgarh.jpg" alt="mussoorie-img" class="main-image">
+  <h1 class="main-text">Chittorgarh</h1>
+  <h2 class="tagline-text">City of Pride and Honor</h2>
+  <div>
+    <img src="images/clock-quick.png" alt="icon1" class="time-icon">
+    <h3 class="t1">duration</h3>
+    <h3 class="p1">4N-3D</h3>
+    <img src="images/rupee.png" alt="icon2" class="rupee-icon">
+    <h3 class="t2">Starting price</h3>
+    <h3 class="p2">₹ 8,999</h3>
+    <img src="images/location-pin.png" alt="icon3" class="location-pin-icon">
+    <h3 class="t3">Pick-up and Drop</h3>
+    <h3 class="p3">Delhi</h3>
+  </div>
+
+  <div>
+    <h1 class="about1">about</h1>
+    <h1 class="about2">ABOUT</h1>
+
+    <p class="about">Located in South-Eastern Rajasthan, Chittorgarh is known for Chittorgarh Fort, the largest fort in India built on a hilltop, spreading over an area of around 700 acres. The capital of the erstwhile kingdom of Mewar, the magnificent fortress will always be remembered for the courageous self-sacrificing Jauhar performed by Rani Padmini to thwart the conquest of the fort by Alauddin Khilji.
+
+      Chittorgarh stands at the helm of Chattari Rajput pride and is remembered in the pages of history for its glorious battles, especially the siege of Alauddin Khilji. Once known for its grandeur and opulence, today, Chittorgarh has left its tales of bravery and betrayal far behind to catch up to commercialization. It takes a few hours to cover the fort complex on foot. Wear comfortable footwear and keep a water bottle handy.
+      
+      Rana Kumbha Palace is the largest structure in Chittorgarh fort, and while it is now a mere tumbledown structure of broken walls and piles of stones, it was once a magnificent three-storied palace with gigantic pillars, maze-like underground tunnels and intricately designed architecture. The most famous attraction in Chittorgarh fort is the Padmini Palace, named after Queen Padmini herself. Replete with roof pavilions and water moats, the story of Queen Padmini’s valour rings out loud in every corner of this dilapidated building.</p>
+
+  </div>
+  <h1 class="date1">dates</h1>
+  <h1 class="date2">DATES</h1>
+  <button class="btn_date1" onclick="date1()">AUG</button>
+  <button class="btn_date2" onclick="date2()">SEP</button>
+  <button class="btn_date3" onclick="date3()">OCT</button>
+
+  <div id="date1-containt">
+    <h3 class="d1">9-Aug-2023 - 14-Aug-2023</h3>
+    <h3 class="d1-open">(open)</h3>
+    <h3 class="d2">24-Aug-2023 - 29-Aug-2023</h3>
+    <h3 class="d2-open">(open)</h3>
+
+  </div>
+
+  <div id="date2-containt" style="display: none;">
+    <h3 class="d1">11-SEP-2023 - 16-SEP-2023</h3>
+    <h3 class="d1-open">(open)</h3>
+    <h3 class="d2">22-SEP-2023 - 27-SEP-2023</h3>
+    <h3 class="d2-open">(open)</h3>
+
+  </div>
+
+  <div id="date3-containt" style="display: none;">
+    <h3 class="d1">15-OCT-2023 - 19-OCT-2023</h3>
+    <h3 class="d1-open">(open)</h3>
+    <h3 class="d2">25-OCT-2023 - 30-OCT-2023</h3>
+    <h3 class="d2-open">(open)</h3>
+
+  </div>
+  <div class="costing">
+    <h1 class="cost-head1">costing</h1>
+    <h1 class="cost-head2">Costing</h1>
+    <table class="costing-table">
+      <thead>
+        <tr>
+          <td class="th1">Room Sharing</td>
+          <td class="th2">selling Cost<br>(per person)</td>
+          <td class="th3">Discounted cost <br> (per person)</td>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td1">Double sharing </td>
+          <td class="td12"><strike>₹6,999/-</strike></td>
+          <td class="td13">₹4,999/-</td>
+        </tr>
+        <tr>
+          <td class="td2">Triple sharing</td>
+          <td class="td22"><strike>₹10,999/-</strike></td>
+          <td class="td23">₹9,999</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <button></button>
+
+  <div class="inclusions">
+    <h2 class="inclusions1">inclusions</h2>
+    <h2 class="inclusions2">INCLUSIONS</h2>
+    <ul class="inclusions-pts">
+      <li>Entire travel as per the itinerary in a private vehicle.</li>
+      <li> 5 Nights accommodation (1 night stay in srinagar houseboat, 1 night stay in Gulmarg, <br>
+        1 night stay in Pahalgam and 2 nights stay in srinagar in hotel) on double/ triple sharing.</li>
+      <li>A total of 10 meals ( Dinner on Day 1, Breakfast and Dinner on Day 2, Breakfast and Dinner on Day 3,<br>
+        Breakfast and Dinner on Day 4 , Breakfast and Dinner on Day 5, Breakfast on Day 6) included.</li>
+      <li>Internal transfer to Aru valley, Betaab Valley and Chandanwari</li>
+      <li>Gondola Cable Car Phase 1 tickets</li>
+      <li>Shikara ride (1 Hour)</li>
+      <li> Team Captain throughout the trip </li>
+      <li>Medical kit</li>
+      <li> All inner line permit if anything applicable</li>
+      <li>Tulip Gardens entry tickets</li>
+      <li>Entry tickets to Aru Valley, Betaab Valley and Chandanwari</li>
+    </ul>
+  </div>
+
+  <div class="exclusions">
+    <h2 class="exclusions1">exclusions</h2>
+    <h2 class="exclusions2">EXCLUSIONS</h2>
+    <ul class="exclusions-pts">
+      <li> GST (5%) is applicable extra.</li>
+      <li>Any other food or beverage charges that are not included in the package.</li>
+      <li>Any other costing involved due to any kind of natural calamity, forced circumstances, which are out of our
+        control.</li>
+      <li>Any other expense not mentioned in the inclusion column.</li>
+      <li>Any personal expenses like a tip to the drivers, entry to monuments/monasteries, <br>
+        camera/video camera charges, laundry, telephone bills, tips, etc</li>
+      <li>Airport pick-up and drop not inlcuded</li>
+      <li>Pony Rides are not included</li>
+      <li>Any other adventure activities which is not mentioned in the inclusions</li>
+    </ul>
+
+  </div>
+
+  <h1 class="reviews1">reviews</h1>
+  <h1 class="reviews2">REVIEWS</h1>
+  <div class="reviews">
+    <div class="reviews-container">
+      <i class="fa-solid fa-user fa-2xl user-icon" style="color: #919191;"></i>
+      <div class="star">
+        <h2 class="reviewer-name">Aakash kundu</h2>
+      <i class="fa-solid fa-star fa-sm star1-left2" style="color: #fcc603;"></i>
+      <i class="fa-solid fa-star fa-sm star2-left2" style="color: #fcc603;"></i>
+      <i class="fa-solid fa-star fa-sm star3-left2" style="color: #fcc603;"></i>
+      <i class="fa-solid fa-star fa-sm star4-left2" style="color: #fcc603;"></i>
+      <i class="fa-sharp fa-solid fa-star fa-sm star5-left2"></i>
+      </div>
+      <h2 class="R1">Snow adventure Zone</h2>
+      <h4 class="R2">Offering exciting adventure sports,snow adventure zone,Mussoorie promises to offer an enthralling
+        experience to those who are young at heart and adventuresome. Loved to be there my with my friends</h4>
+    </div>
+  </div>
+
+
+  <footer id="footer">
+    <h1 class="contact-us">Contact Us</h1>
+
+    <a href="https://twitter.com/" class="footer-link"><i class="fa-brands fa-twitter fa-2xl footer-icons"></i></a>
+    <a href="www.facebook.com" class="footer-link"><i class="fa-brands fa-facebook-f fa-2xl footer-icons"></i></a>
+    <a href="www.instagram.com" class="footer-link"><i class="fa-brands fa-instagram fa-2xl footer-icons"></i></a>
+    <a href="www.gmail.com" class="footer-link"><i class="fa-solid fa-envelope fa-2xl footer-icons"></i></a>
+    <div id="footer_top">
+      <div id="address">ADDRESS</div>
+      <div id="address_name">ADVENTURE EXPRESS</div>
+      <div id="address_place">Computer Science Department, NIT Kurukshetra, Thanesar, Haryana, India</div>
+    </div>
+    <div id="footerbottom">
+      <a href="mailto:shubhamkeshrikgg@gmail.com" id="email">hello@AdventureExpress.in</a>
+      <a href="tel:7462056891" id="mob">7462056891</a>
+      <a href="#" id="website">www.AdventureExpress.com</a>
+    </div>
+  </footer>
+  <!-- <script>
+    function date1() {
+      document.querySelector(".date1-containt").innerhtml = `<h3 class="d1">9-Aug-2023 - 14-Aug-2023</h3> <h3 class="d1-open">(open)</h3>
+          <h3 class="d2">24-Aug-2023 - 29-Aug-2023</h3>
+          <h3 class="d2-open">(open)</h3>`
+    }
+  </script> -->
+  <script src="index.js"></script>
+</body>
+
+</html>

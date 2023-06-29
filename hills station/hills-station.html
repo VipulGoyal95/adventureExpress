@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hills Station</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/f630d9e302.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar_top">
+    <div class="container-fluid NavBar">
+      <a class="navbar-brand nav-title" href="#">AdventureExpress</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <div class="box">
+            <form class=" " role="search">
+              <input type="text" placeholder="Search...">
+              <a href="#">
+                <i class="fas fa-search"></i>
+              </a>
+            </form>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link active d-flex" aria-current="page" href="../AdventureExpress.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex" href="../about us/aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Your Plan
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Past Trip</a></li>
+              <li><a class="dropdown-item" href="#">Ongoing Trip</a></li>
+              <li>
+              </li>
+              <li><a class="dropdown-item" href="#">Upcoming Trip</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex" href="../login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="../signup.html" class="nav-link d-flex">Sign-up</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+<div class="container1">
+  <img src="images\mussorie.jpg" alt="mussoorie" class="mussoorie-img">
+  <h1 class="mussoorie-text">Mussoorie</h1>
+  <h3 class="textin1-right1">Trip for 4 days and 3 Night</h3>
+  <h3 class="textin2-right1">Best price available for hotel | 20 % off</h3>
+  <h3 class="textin3-right1">Best places to visit in mussoorie </h3> 
+  <i class="fa-solid fa-star fa-sm star1-right1" style="color: #fcc603;"></i>
+  <i class="fa-solid fa-star fa-sm star2-right1" style="color: #fcc603;"></i>
+  <i class="fa-solid fa-star fa-sm star3-right1" style="color: #fcc603;"></i>
+  <i class="fa-solid fa-star fa-sm star4-right1" style="color: #fcc603;"></i>
+  <i class="fa-sharp fa-solid fa-star fa-sm star5-right1"></i>
+  <button class="btn btn-danger rating1-right1">4.0</button>
+  <h5 class="price1-right1"><strike>₹ 19,599  </strike> </h5>
+  <h3 class="price2-right1"> ₹ 15,500</h3>
+  <h6 class="textin4-right1">Per adult</h6>
+  <button class="btn btn-warning btn1-right" onclick="link1()">Book Now</button>
+</div>
+<div class="container2">
+  <img src="images/shimla.jpg" alt="shimla" class="shimla-img">
+  <h1 class="shimla-text">Shimla</h1>
+  <h3 class="textin1-left1">Trip for 4 days and 3 Night</h3>
+  <h3 class="textin2-left1">Best price available for hotel | 30 % off</h3>
+  <h3 class="textin3-left1">Best places to visit in shimla </h3> 
+  <i class="fa-solid fa-star fa-sm star1-left1" style="color: #fcc603;"></i>
+  <i class="fa-solid fa-star fa-sm star2-left1" style="color: #fcc603;"></i>
+  <i class="fa-solid fa-star fa-sm star3-left1" style="color: #fcc603;"></i>
+  <i class="fa-solid fa-star fa-sm star4-left1" style="color: #fcc603;"></i>
+  <i class="fa-sharp fa-solid fa-star fa-sm star5-left1"></i>
+  <button class="btn btn-danger rating1-left1">4.5</button>
+  <h5 class="price1-left1"><strike>₹ 22,499  </strike> </h5>
+  <h3 class="price2-left1"> ₹ 17,499</h3>
+  <h6 class="textin4-left1">Per adult</h6>
+  <button class="btn btn-warning btn1-left1" onclick="link2()">Book Now</button>
+</div>
+<div class="container3">
+  <img src="images/nainital.jpg" alt="nainital" class="nainital-img">
+  <h1 class="nainital-text">Nainital</h1>
+  <h3 class="textin1-right2">Trip for 3 days and 4 Night</h3>
+  <h3 class="textin2-right2">Best price available for hotel | 27% off</h3>
+  <h3 class="textin3-right2">Best places to visit in nainital </h3> 
+  <i class="fa-solid fa-star fa-sm star1-right2" style="color: #fcc603;"></i>
+  <i class="fa-solid fa-star fa-sm star2-right2" style="color: #fcc603;"></i>
+  <i class="fa-solid fa-star fa-sm star3-right2" style="color: #fcc603;"></i>
+  <i class="fa-solid fa-star fa-sm star4-right2" style="color: #fcc603;"></i>
+  <i class="fa-sharp fa-solid fa-star fa-sm star5-right2"></i>
+  <button class="btn btn-danger rating2-right2">4.2</button>
+  <h5 class="price1-right2"><strike>₹ 18,599  </strike> </h5>
+  <h3 class="price2-right2"> ₹ 13,599</h3>
+  <h6 class="textin4-right2">Per adult</h6>
+  <button class="btn btn-warning btn2-right2" onclick="link3()">Book Now</button>
+</div>
+<div class="container4">
+  <img src="images/darjeeling.jpg" alt="darjeeling" class="darjeeling-img">
+  <h1 class="darjeeling-text">darjeeling</h1>
+  <h3 class="textin1-left2">Trip for 3 days and 4 Night</h3>
+  <h3 class="textin2-left2">Best price available for hotel | 18 % off</h3>
+  <h3 class="textin3-left2">Best places to visit in darjeeling </h3> 
+  <i class="fa-solid fa-star fa-sm star1-left2" style="color: #fcc603;"></i>
+  <i class="fa-solid fa-star fa-sm star2-left2" style="color: #fcc603;"></i>
+  <i class="fa-solid fa-star fa-sm star3-left2" style="color: #fcc603;"></i>
+  <i class="fa-solid fa-star fa-sm star4-left2" style="color: #fcc603;"></i>
+  <i class="fa-sharp fa-solid fa-star fa-sm star5-left2"></i>
+  <button class="btn btn-danger rating2-left2">4.2</button>
+  <h5 class="price1-left2"><strike>₹ 19,999  </strike> </h5>
+  <h3 class="price2-left2"> ₹ 16,300</h3>
+  <h6 class="textin4-left2">Per adult</h6>
+  <button class="btn btn-warning btn1-left2" onclick="link4()">Book Now</button>    
+
+</div>
+
+<footer id="footer">
+  <h1 class="contact-us">Contact Us</h1>
+
+  <a href="https://twitter.com/" class="footer-link"><i class="fa-brands fa-twitter fa-2xl footer-icons"></i></a>
+  <a href="www.facebook.com" class="footer-link"><i class="fa-brands fa-facebook-f fa-2xl footer-icons"></i></a>
+  <a href="www.instagram.com" class="footer-link"><i class="fa-brands fa-instagram fa-2xl footer-icons"></i></a>
+  <a href="www.gmail.com" class="footer-link"><i class="fa-solid fa-envelope fa-2xl footer-icons"></i></a>
+  <div id="footer_top">
+    <div id="address">ADDRESS</div>
+    <div id="address_name">ADVENTURE EXPRESS</div>
+    <div id="address_place">Computer Science Department, NIT Kurukshetra, Thanesar, Haryana, India</div>
+  </div>
+  <div id="footerbottom">
+    <a href="mailto:shubhamkeshrikgg@gmail.com" id="email">hello@AdventureExpress.in</a>
+    <a href="tel:7462056891" id="mob">7462056891</a>
+    <a href="#" id="website">www.AdventureExpress.com</a>
+  </div>
+</footer>
+
+<script src="index.js"></script>
+
+</body>
+
+</html>
